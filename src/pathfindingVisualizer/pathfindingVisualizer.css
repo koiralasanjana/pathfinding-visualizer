@@ -1,0 +1,64 @@
+.grid {
+  font-size: 0;
+  pointer-events: unset;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 2%);
+  
+  /*   top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); */
+}
+
+.grid-visualizing {
+  font-size: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 2%);
+}
+
+ul{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  text-align: center;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.learn{
+ margin-top: 103vh;
+ margin-left: 10%;
+ margin-right: 10%;
+}
+
+#learn{
+  width: 80%;
+  padding-bottom: 30px;
+}
+
+.learn_header{
+  padding-top: 30px;
+  color: green;
+}
+
+.algo{
+  color: green;
+  text-align: justify;
+}
+
+.learn_intro, .algo_content{
+  font-size: 15px;
+  text-align: justify;
+}
